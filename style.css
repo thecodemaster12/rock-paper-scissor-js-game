@@ -6,23 +6,15 @@
     box-sizing: border-box;
 }
 
-/* .container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-} */
-
 body {
     background-image: linear-gradient( 135deg, #EE9AE5 10%, #5961F9 100%);
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     width: 80%;
     margin: auto;
     gap: 4rem;
@@ -66,6 +58,10 @@ body {
     border-radius: 15px;
 }
 
+.userControls  button:active{
+    scale: 2px;
+}
+
 .emoji {
     font-size: 3rem;
 }
@@ -82,4 +78,13 @@ body {
 }
 .yellow {
     color: yellow;
+}
+
+#result{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.social {
+    font-size: 2.5rem;
 }
